@@ -1,8 +1,8 @@
 document.querySelector('body').addEventListener('mousemove', eyeball);
 
 function eyeball(){
-    const eye = document.querySelectorAll('.eye');
-    eye.forEach(function(eye){
+    const eye = document.querySelectorAll('.eyes');
+    eye.forEach(function(eye) {
         let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
         let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
 
